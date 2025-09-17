@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+    YT: Tôi làm dev
+    tt: Tôi làm dev
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form + Table</title>
+</head>
+
+<!-- 
+    form: bao bọc tất cả thành phần của 1 biểu mẫu
+    <label>: dùng để tạo nhãn cho 1 ô input
+    <input>: định nghĩa ra loại của ô dữ liệu
+        type: 
+        + "text": Ô nhập văn bản ( chỉ nhập trên 1 dòng )
+        + "password": Ô nhập mật khẩu ( những kí tự sẽ được ẩn đi )
+        + "email": Ô nhập địa chỉ email
+        + "number": Ô nhập số
+        + "date": Ô chọn ngày tháng
+        + "radio": Hộp chọn (chỉ chọn 1 trong nhiều lựa chọn )
+        + "checkbox": Ô để chọn 
+        + "submit": Tạo 1 nút submit để gửi dữ liệu trong form
+
+table: Thẻ cha dùng để bao bọc toàn bộ nội dung của 1 bảng
+<tr> (table row): dùng để tạo 1 hàng
+    <th> (table head): dùng để định nghĩa một ô tiêu đề
+<td> (table data): dùng để tạo nội dung cho 1 ô dữ liệu
+<thead>: Nhóm các hàng trong phần đầu của bảng
+<tbody>: Nhóm các hàng trong phần thân của bảng
+<tfoot>: Nhóm các hàng ở phần chân bảng
+    -->
+
+<!-- 
+        lưu file: ctrl + s
+-->
+
+<body>
+    <!-- <form> -->
+    <!-- <label for="username">User name</label>
+        <input id="username" type="text">
+        <br> -->
+    <!-- <label for="email">Email</label>
+        <br>
+        <input id="email" type="email">
+        <br>
+        <label for="password">Password</label>
+        <input id="password" type="password"> -->
+    <!-- <br>
+        <label for="">Age</label>
+        <br>
+        <input type="number" min="1" max="90">
+        <br>
+        <label for="born">Born</label>
+        <br>
+        <input id="born" type="date">
+        <br>
+        <label for="">Gender</label>
+        <br>
+        <label for="men">Men</label>
+        <input id="men" type="radio" name="gender">
+        <br>
+        <label for="women">Women</label>
+        <input id="women" type="radio" name="gender">
+        <br>
+        <label for="other">Other</label>
+        <input id="other" type="radio" name="gender">
+        <br>
+        <label for="">Bạn đã học qua ngôn ngữ nào??</label>
+
+        <input id="js" type="checkbox">
+        <label for="js">Javascript</label>
+        <br>
+        <input id="java" type="checkbox">
+        <label for="java">Java</label>
+        <br>
+        <input id="c" type="checkbox">
+        <label for="c">C</label>
+        <br> -->
+    <!-- <input type="submit">
+    </form> -->
+    <table>
+        <thead>
+            <tr>
+                <th>PRODUCT TITLE</th>
+                <th>SKU</th>
+                <th>PRICE</th>
+                <th>STOCK</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iphone 17 pro max</td>
+                <td>90</td>
+                <td>50M</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>Iphone 17 pro max</td>
+                <td>90</td>
+                <td>50M</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>Iphone 17 pro max</td>
+                <td>90</td>
+                <td>50M</td>
+                <td>300</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Tổng hàng</td>
+                <td>270</td>
+                <td>150M</td>
+                <td>900</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
