@@ -1,22 +1,5 @@
-/* #blue {
-    color: blue;
-}
+h1 {}
 
-h1 {
-    color: red;
-}
+.heading {}
 
-.title {
-    color: aqua;
-}
-
-.subtitle {
-    color: red;
-} */
-h1.title {
-    color: yellow !important;
-}
-
-/* #blue {
-    color: red !important;
-} */
+#fullhouse {}
