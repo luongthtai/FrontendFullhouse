@@ -1,5 +1,5 @@
-h1 {
-    color: rgba(128, 128, 0, 0.5);
+/* h1 {
+    color: #ffffff;
     background-color: rgba(255, 0, 255, 0.5);
 }
 
@@ -19,5 +19,5 @@ p {
 }
 
 .line {
-    text-decoration: overline double rgba(128, 128, 0, 0.5);
-}
+    text-decoration: overline double rgb(128, 128, 0);
+} */
